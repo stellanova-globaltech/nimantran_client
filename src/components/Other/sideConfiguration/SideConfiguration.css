@@ -1,0 +1,33 @@
+.configuration {
+  flex: 7;
+  /* background: #bceec2; */
+  background: #570000;
+  padding: 20px 10px;
+  /* border-radius: 5px; */
+  display: flex;
+  flex-direction: column;
+  max-width: 14vw;
+  /* height: 80vh; */
+  /* overflow-y: auto; */
+  align-items: center;
+  gap: 25px;
+  min-width: 16vw;
+
+  /* box-shadow: 4px 4px 7px 1px #000; */
+  h2 {
+    color: white;
+    font-family: "Podkova";
+    text-align: center;
+  }
+}
+
+.NoText {
+  color: rgb(247, 247, 247);
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+
+  input {
+    margin: 5px;
+  }
+}

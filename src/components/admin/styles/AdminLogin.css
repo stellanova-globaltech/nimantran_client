@@ -1,0 +1,78 @@
+/* Styles for Admin Login */
+.admin-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9edf1;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .admin-login-container .login-avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .admin-login-container .login-avatar img{
+    height: 100px;
+    width: 100px;
+  }
+  .admin-login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .admin-login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .admin-login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .admin-login-container button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-login-container .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .admin-login-container .remember-me input {
+    margin-right: 10px;
+  }
+  
+  .admin-login-container .forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .admin-login-container .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
